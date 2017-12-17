@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+	background-color: #F1F1F1;
+	color: #c2c2c2;
+}
+.search{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+
+input[type="search"]{
+	color: #ec5a62;
+	border: none;
+	outline: none;
+	background-color: #F1F1F1;
+	font-size: 70px;
+	font-weight: bold;
+	width: 85%;
+}
+
+
+
+input[type="search"]::-webkit-input-placeholder {color:#c2c2c2;}
+input[type="search"]::-moz-placeholder          {color:#c2c2c2;}/* Firefox 19+ */
+input[type="search"]:-moz-placeholder           {color:#c2c2c2;}/* Firefox 18- */
+input[type="search"]:-ms-input-placeholder      {color:#c2c2c2;}
+
+input[type="search"]:focus::-webkit-input-placeholder {color: transparent}
+input[type="search"]:focus::-moz-placeholder          {color: transparent}
+input[type="search"]:focus:-moz-placeholder           {color: transparent}
+input[type="search"]:focus:-ms-input-placeholder      {color: transparent}
+
+button[type="submit"]{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	
+}
+
+button[type="submit"] img{
+	width: 45px;
+
+}
+button[type="submit"]:focus,
+button[type="submit"]:active{
+	border: none;
+	outline: none;
+}
+.search form{
+	margin-bottom: 50px;
+}
+.list{
+	width: 33%;
+	display: inline-block;
+
+}
+
+.list h2{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.list .list_people{
+	padding: 0;
+	list-style-type: none;
+	margin-right: 45px;
+}
+
+.list .list_people .list_people__item{
+	background-color: rgba(118,117,128,0.05);
+	margin-bottom: 5px;	
+    border-radius: 5px;
+}
+.list_people__link {
+	display: block;
+	text-decoration: none;
+	color: #c2c2c2;
+	padding: 5px;
+
+}
+.list_people__link:hover,
+.list_people__link:focus,
+.list_people__link:active{
+	background-color: rgba(118,117,128,0.1);
+	color: #ec5a62;
+}
+
+.list_people__link img{
+
+	width: 35px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.list_people__link .circle{
+	border-radius: 100%;	
+}
+.list_people__link .list_people__name{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+
