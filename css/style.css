@@ -8,7 +8,7 @@ body{
 	color: #c2c2c2;
 }
 .search{
-	width: 70%;
+	width: 1140px;
 	margin: 0 auto;
 	padding-top: 40px;
 }
@@ -55,6 +55,11 @@ button[type="submit"]:active{
 .search form{
 	margin-bottom: 50px;
 }
+
+.container{
+	font-size: 0;
+}
+
 .list{
 	width: 33%;
 	display: inline-block;
@@ -65,12 +70,13 @@ button[type="submit"]:active{
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: bold;
+	margin-left: 15px;
 
 }
 .list .list_people{
 	padding: 0;
 	list-style-type: none;
-	margin-right: 45px;
+	margin:  0 15px;
 }
 
 .list .list_people .list_people__item{
@@ -82,7 +88,7 @@ button[type="submit"]:active{
 	display: block;
 	text-decoration: none;
 	color: #c2c2c2;
-	padding: 5px;
+	padding: 12px 5px;
 	transition: all .1s ease-in;
 
 }
@@ -95,8 +101,8 @@ button[type="submit"]:active{
 
 .list_people__link img{
 
-	width: 35px;
-	margin-right: 5px;
+	width: 40px;
+	margin: 0 10px;
 	vertical-align: middle;
 }
 .list_people__link .circle{
@@ -106,5 +112,6 @@ button[type="submit"]:active{
 	display: inline-block;
 	font-size: 12px;
 	font-weight: bold;
+	vertical-align: middle;
 }
 
